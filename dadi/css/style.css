@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 50px;
+    text-align: center;
+}
+
+#container_dadi{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+
+.quadrato{
+    width:200px;
+    height:200px;
+    border: 3px solid green;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quadrato.piccolo{
+    width:220px;
+    height: 80px;
+    border-radius: 20px;
+}
