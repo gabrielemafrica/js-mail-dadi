@@ -8,9 +8,10 @@ const mailUser = prompt("Inserisci la tua mail");
 //console.log(mailUser);
 
 //scrivo le risposte
-let risposta
+
 let rispostaSi = "mail riconosciuta, BENVENUTO ALLA FESTA!";
 let rispostaNo = "mail sconosciuta, NON PUOI ENTRARE!";
+let risposta = rispostaNo;
 
 //verifico mail
 
@@ -25,11 +26,8 @@ for (let index = 0; index < mailAdmitted.length; index++) {
     if (mailUser === mailElement) {
 
         risposta = rispostaSi;
-    }   //mail non trovata
-    else {
+    } 
 
-        risposta = rispostaNo;
-    }
 
 }
     console.log(risposta);
